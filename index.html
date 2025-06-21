@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="favorites.html">
+                    <svg class="basket-icon" width="44" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M20 10L18.5145 17.4276C18.3312 18.3439 18.2396 18.8021 18.0004 19.1448C17.7894 19.447 17.499 19.685 17.1613 19.8326C16.7783 20 16.3111 20 15.3766 20H8.62337C7.6889 20 7.22166 20 6.83869 19.8326C6.50097 19.685 6.2106 19.447 5.99964 19.1448C5.76041 18.8021 5.66878 18.3439 5.48551 17.4276L4 10M20 10H18M20 10H21M4 10H3M4 10H6M6 10H18M6 10L9 4M18 10L15 4M9 13V16M12 13V16M15 13V16"
+                                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+              
+                <div class="filter-function">
+                    <input class="search-product" type="text" placeholder="Search">
+                    <select class="filter-select">
+                        <option value="all">All</option>
+                        <option value="expensive-cheap">Expensive</option>
+                        <option value="cheap-expensive">Cheap</option>
+                    </select>
+                    <select class="category-fiter-select">
+                        <option value="all">All</option>
+                        <option value="mens-clothing">Mens Clothing</option>
+                        <option value="womens-clothing">Womens Clothing</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="jewelery"> jewelery</option>
+                    </select>
+                </div>
+
+                <label class="switch">
+                    <input checked="false" id="checkbox" type="checkbox" />
+                    <span class="slider">
+                        <div class="star star_1"></div>
+                        <div class="star star_2"></div>
+                        <div class="star star_3"></div>
+                        <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+                            <path transform="matrix(.77976 0 0 .78395-299.99-418.63)" fill="#fff"
+                                d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925">
+                            </path>
+                        </svg>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="all-products">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
